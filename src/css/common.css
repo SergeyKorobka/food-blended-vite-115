@@ -1,0 +1,33 @@
+.main-btn {
+  padding: 6px 18px;
+  border-radius: 30px;
+  min-width: 98px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  background-color: #bbf330;
+  cursor: pointer;
+
+  transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out;
+}
+
+.secondary-btn {
+  padding: 9px 21px;
+  height: 40px;
+  min-width: 106px;
+  background-color: #ffffff;
+  border: 2px solid #7eb101;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #ffe450;
+}
+
+.secondary-btn:hover,
+.secondary-btn:focus {
+  border-color: transparent;
+  background-color: #bbf330;
+}
